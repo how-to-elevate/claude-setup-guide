@@ -27,3 +27,20 @@
 .card .tag.warn { background: var(--honey-light); }
 @media (max-width: 700px) { .hero h1 { font-size: 34px; } .hero .sub { font-size: 19px; } .story p { font-size: 18px; } }
 @media print { .btn, .topnav, .nextnav { display: none; } }
+
+/* Clearer body text */
+body, p, li, td, table, .toc li, .callout p, .callout li, .phase p, .phase li, .step-body p, .os-block-body li, .story p, .part-link p { font-family: 'Open Sans', Arial, sans-serif; color: var(--cacao); }
+body, p, li, td { font-size: 16px; line-height: 1.65; }
+.callout p, .phase p, .step-body p, .callout li, .os-block-body li { font-size: 15.5px; }
+.lead, .cover .subtitle, .hero .sub, .hero .prehead { font-family: 'Open Sans', Arial, sans-serif; font-style: normal; font-weight: 400; color: var(--cacao-soft); }
+.lead { font-size: 18px; }
+.cover .subtitle, .hero .sub { font-size: 18px; }
+.hero .prehead { font-size: 16px; }
+.story p { font-size: 17px; }
+.btn-note { font-size: 12.5px; }
+.phase-badge.red { background: #B3362B; color: #fff; }
+.phase-badge.green { background: #2E7D4F; color: #fff; }
+.ticks td:not(:first-child), .ticks th:not(:first-child) { text-align: center; }
+.tick { color: #2E7D4F; font-size: 22px; font-weight: 700; }
+.cross { color: #B3362B; font-size: 22px; font-weight: 700; }
+.warn { color: #B3362B; font-weight: 600; }

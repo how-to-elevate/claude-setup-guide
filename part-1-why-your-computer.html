@@ -6,7 +6,7 @@
 <title>Part 1: Why Your Own Computer / Make Claude Code Your Bitch</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="sop-style.css">
 <link rel="stylesheet" href="workbook.css">
 </head>
@@ -30,7 +30,7 @@
 
 <div class="phase">
   <div class="phase-header">
-    <span class="phase-badge cacao">Quick answers</span>
+    <span class="phase-badge red">Quick answers</span>
     <span class="phase-title">Claude chat</span>
   </div>
   <p>The one you've probably used at claude.ai or in the phone app. It's great for questions and first drafts, and it can connect to things like Gmail and Google Drive. It lives in a conversation though, so your business stays somewhere you can't really see or organise.</p>
@@ -38,7 +38,7 @@
 
 <div class="phase">
   <div class="phase-header">
-    <span class="phase-badge cacao">Hits limits fast</span>
+    <span class="phase-badge red">Hits limits fast</span>
     <span class="phase-title">Cowork</span>
   </div>
   <p>Lives in the Claude desktop app. It can connect to other things, but it very quickly meets limits that Claude Code doesn't have.</p>
@@ -46,7 +46,7 @@
 
 <div class="phase">
   <div class="phase-header">
-    <span class="phase-badge cacao">For developers</span>
+    <span class="phase-badge red">For developers</span>
     <span class="phase-title">Claude Code on Anthropic's servers</span>
   </div>
   <p>Claude Code running on Anthropic's computers. It keeps going when your laptop's shut, which sounds perfect until you find out it works from code stored on GitHub, and can't see the files on your computer. You can ignore this one.</p>
@@ -54,14 +54,14 @@
 
 <div class="phase">
   <div class="phase-header">
-    <span class="phase-badge">This is the one</span>
+    <span class="phase-badge green">This is the one</span>
     <span class="phase-title">Claude Code on your computer</span>
   </div>
   <p>Claude Code running in the desktop app, in a folder on your own machine. It reads your files, creates new ones, runs programs and uses your connected apps. Every session starts by reading who you are and who you serve. Everything in this workbook happens here.</p>
 </div>
 
 <div class="table-wrap">
-<table>
+<table class="ticks">
   <tr>
     <th></th>
     <th>Claude chat</th>
@@ -69,22 +69,22 @@
     <th>Code on your computer</th>
   </tr>
   <tr>
-    <td><strong>Your computer's files</strong></td>
-    <td>Only through the desktop app, for folders you allow</td>
-    <td>No. Works from GitHub</td>
-    <td>Yes, your whole Claude folder</td>
+    <td><strong>Reads your whole business folder every session</strong></td>
+    <td><span class="cross">&#10007;</span></td>
+    <td><span class="cross">&#10007;</span></td>
+    <td><span class="tick">&#10003;</span></td>
   </tr>
   <tr>
-    <td><strong>Keeps going with the laptop shut</strong></td>
-    <td>Scheduled tasks on paid plans</td>
-    <td>Yes</td>
-    <td>No. Your computer has to be on and awake</td>
+    <td><strong>Runs programs on your computer, like transcribing your videos</strong></td>
+    <td><span class="cross">&#10007;</span></td>
+    <td><span class="cross">&#10007;</span></td>
+    <td><span class="tick">&#10003;</span></td>
   </tr>
   <tr>
-    <td><strong>Needs GitHub</strong></td>
-    <td>No</td>
-    <td>Yes</td>
-    <td>No</td>
+    <td><strong>Works without GitHub</strong></td>
+    <td><span class="tick">&#10003;</span></td>
+    <td><span class="cross">&#10007;</span></td>
+    <td><span class="tick">&#10003;</span></td>
   </tr>
 </table>
 </div>
