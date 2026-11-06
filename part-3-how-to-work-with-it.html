@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Part 3: How To Work With It / Make Claude Code Your Bitch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sop-style.css">
+<link rel="stylesheet" href="workbook.css">
+</head>
+<body>
+
+<div class="topnav"><a href="index.html">&larr; All parts</a></div>
+
+<div class="cover">
+  <div class="eyebrow">Part 3 of 6</div>
+  <h1>How To Work<br>With It</h1>
+  <div class="subtitle">You say what you want to end up with. Claude works out how, and shows you the plan before it touches anything.</div>
+  <div class="pills">
+    <span class="pill sky">Keala's six steps</span>
+    <span class="pill">About 35 minutes</span>
+  </div>
+</div>
+
+<p class="lead">Most people tell Claude what to do, step by step, then spend hours fixing what comes back. It's quicker to do it the other way round.</p>
+
+<p>This is how Keala gets Claude to build things, and he uses it for nearly everything now. He hates reading plans. He'll also tell you that time spent in the plan is far cheaper than building, rebuilding and rebuilding again. You use less of your Claude allowance, you've got less to reread, and the result's better.</p>
+
+<p>This workbook got made this way. I talked at Claude for a few minutes about what I wanted, it came back with a plan, and I sent it back with my changes. Nothing had been built at that point, so the changes cost me nothing.</p>
+
+<h2>The Six Steps</h2>
+
+<div class="steps">
+
+<div class="step">
+  <div class="step-num">1</div>
+  <div class="step-body">
+    <h4>Give it the outcome, not the process</h4>
+    <p>Say what you want to end up with, in plain words, with the context around it. Keep the how out of it. You stay clear on the intention and Claude works out the mechanism. Talk it through like you're explaining it to a person: here's my situation, here's where I want to get to, and here's why.</p>
+    <div class="code-block"><span class="label">A way to start</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>Here's what I want to end up with: [the outcome, in plain words].
+
+Here's the situation right now: [what's happening, what you've got, what's not working].
+
+It matters because: [why you want it].
+
+Tell me how you would do this.</div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">2</div>
+  <div class="step-body">
+    <h4>Start in Plan mode</h4>
+    <p>Before you send it, switch to Plan mode. You'll find the mode setting in the row under the message box. In Plan mode Claude can look around and think, but it can't change anything.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">3</div>
+  <div class="step-body">
+    <h4>Read the whole plan</h4>
+    <p>This is the annoying bit. Read it anyway. Wherever you know something it doesn't, tell it, and get the plan changed.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">4</div>
+  <div class="step-body">
+    <h4>When you can't improve it, get it to attack its own plan</h4>
+    <div class="code-block"><span class="label">Find the holes</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>What are the potential holes in the plan you've developed so far?
+
+If you were me, knowing the outcome I want is [say it again in one line], how would you improve this plan to increase the odds we get there?</div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">5</div>
+  <div class="step-body">
+    <h4>Pick the good ideas and bin the rest</h4>
+    <p>It'll come back with a list. Some ideas will be good and some will be rubbish. Tell it straight: "Do 1, 3 and 6. Skip the rest, they don't make sense." Go round again until you're both looking at the same plan.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">6</div>
+  <div class="step-body">
+    <h4>Then let it build</h4>
+    <p>Approve the plan and leave it alone for a bit. If you trust the plan, set the mode to <strong>Auto</strong> so it doesn't stop to ask about every small thing.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="callout honey">
+  <strong>One safety line</strong>
+  <p>Letting it run is fine for work inside your Claude folder. Anything that sends an email, publishes something, spends money or deletes something, you check first. And leave <strong>Bypass permissions</strong> alone. It removes the safety checks, and you've got no reason to use it.</p>
+</div>
+
+<h2>The Modes, In Plain English</h2>
+
+<div class="table-wrap">
+<table>
+  <tr>
+    <th>Mode</th>
+    <th>What It Does</th>
+    <th>Use It For</th>
+  </tr>
+  <tr>
+    <td><strong>Manual</strong></td>
+    <td>Asks before it does anything</td>
+    <td>Your first few sessions</td>
+  </tr>
+  <tr>
+    <td><strong>Accept edits</strong></td>
+    <td>Changes files without asking, but asks about anything else</td>
+    <td>Writing and editing work</td>
+  </tr>
+  <tr>
+    <td><strong>Plan</strong></td>
+    <td>Looks and thinks, and changes nothing</td>
+    <td>The start of any real job</td>
+  </tr>
+  <tr>
+    <td><strong>Auto</strong></td>
+    <td>Gets on with it, with safety checks running in the background</td>
+    <td>After you've approved a plan</td>
+  </tr>
+  <tr>
+    <td><strong>Bypass permissions</strong></td>
+    <td>Removes the safety checks</td>
+    <td>Nothing. Leave it alone.</td>
+  </tr>
+</table>
+</div>
+
+<h2>When To Skip The Plan</h2>
+
+<p>Quick questions don't need any of this. "How's this ad doing?" or "Fix the typo in that email" can go straight in. If it's going to build something, it starts in Plan mode.</p>
+
+<h2>You're The Boss</h2>
+
+<p class="lead">It's normal to feel strange about AI seeing your stuff. So decide exactly what it sees.</p>
+
+<p>You wouldn't give a new team member your bank login on day one. You'd start them on something small, see how they do, and give them more as they earn it. Treat Claude the same way.</p>
+
+<p>I had this fear too. I didn't understand how any of this connected, and I didn't know a web page could hide instructions aimed at Claude. So I asked Claude to check my own setup. It found gaps, and we fixed them. You can do the same with the prompt below.</p>
+
+<div class="table-wrap">
+<table>
+  <tr>
+    <th>The Fear</th>
+    <th>What's True</th>
+    <th>What You Do</th>
+  </tr>
+  <tr>
+    <td><strong>It'll see my whole life</strong></td>
+    <td>It works in the folder you pick. In Manual mode it asks before going outside it. An app is only reachable if you connect it. A command you approve can reach further, so read what you're approving.</td>
+    <td>Keep private things out of your Claude folder, and connect one app at a time</td>
+  </tr>
+  <tr>
+    <td><strong>It'll do something I can't undo</strong></td>
+    <td>Plan mode changes nothing, and you approve the plan before anything happens</td>
+    <td>Start every new job with one small batch</td>
+  </tr>
+  <tr>
+    <td><strong>My stuff will train AI</strong></td>
+    <td>On Pro and Max there's a setting for this, and it covers your Claude Code sessions. If it's on, your data can be kept for up to 5 years.</td>
+    <td>Go to Settings, then Privacy, and choose. Mine was on without me realising.</td>
+  </tr>
+  <tr>
+    <td><strong>It'll get into my bank</strong></td>
+    <td>Chrome can ask for your fingerprint or PIN before filling in a saved password, and Claude can't get past that. Anthropic also says it asks before using financial sites.</td>
+    <td>Check your bank asks for a fingerprint or PIN every time. If it doesn't, use a separate Chrome profile for it, without the extension.</td>
+  </tr>
+  <tr>
+    <td><strong>A web page could trick it</strong></td>
+    <td>It's a real risk, and Anthropic says so. The danger comes when Claude can read something private, reads a page with hidden instructions, and has a way to send things out.</td>
+    <td>Keep your most private things out of reach, and watch the first few minutes of any new Chrome job</td>
+  </tr>
+  <tr>
+    <td><strong>It'll see my private photos</strong></td>
+    <td>Anything you hand over gets read, including passports and bank cards in your photo library</td>
+    <td>Before any photo job, move private photos into the Locked Folder in Google Photos, and delete what you don't need</td>
+  </tr>
+  <tr>
+    <td><strong>My customers' private details</strong></td>
+    <td>What Claude reads goes to Anthropic to be processed</td>
+    <td>Keep customers' bank, medical and ID details out of your folder</td>
+  </tr>
+  <tr>
+    <td><strong>Can I get out?</strong></td>
+    <td>You can disconnect any app and remove the extension. Deleted chats leave storage within 30 days. Your folder stays yours.</td>
+    <td>Disconnect any time, under Customize then Connectors</td>
+  </tr>
+</table>
+</div>
+
+<h3>Give it more as it earns it</h3>
+
+<div class="steps">
+  <div class="step"><div class="step-num sky">1</div><div class="step-body"><h4>Your folder only</h4><p>Nothing connected. Get used to how it works.</p></div></div>
+  <div class="step"><div class="step-num sky">2</div><div class="step-body"><h4>One app, look only</h4><p>Connect one app and ask: "Tell me what's in there. Change nothing."</p></div></div>
+  <div class="step"><div class="step-num sky">3</div><div class="step-body"><h4>One small change</h4><p>Give it something small enough that you can check all of it.</p></div></div>
+  <div class="step"><div class="step-num sky">4</div><div class="step-body"><h4>Bigger jobs</h4><p>Once it's proved itself, hand over the job and check the result.</p></div></div>
+  <div class="step"><div class="step-num sky">5</div><div class="step-body"><h4>Chrome last</h4><p>It's the most powerful way in, so it comes when you trust the rest.</p></div></div>
+</div>
+
+<div class="code-block"><span class="label">Before you connect anything</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>I'm thinking of connecting [app]. Tell me exactly what you could see and do once it's connected, what you couldn't, and how I'd disconnect it.</div>
+
+<div class="code-block"><span class="label">Check my setup</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>Check my setup. What can you reach on this computer and in my connected apps, what's approved without asking me, and what would you tighten? Block anything that holds saved passwords and keys. Change nothing yet. Show me first, in plain English.</div>
+
+<p>The risk is never zero, and you decide how much you're comfortable with. You can start as small as you like.</p>
+
+<h2>How Claude Gets Into Your Other Apps</h2>
+
+<p class="lead">There are three ways in. They all let Claude work in your other apps, and they work very differently.</p>
+
+<div class="phase">
+  <div class="phase-header">
+    <span class="phase-badge">Try first</span>
+    <span class="phase-title">Direct connection (a connector)</span>
+  </div>
+  <p>A ready-made link between Claude and an app. You pick the app from a list, sign in once, and Claude can reach it directly without opening anything. It's the fastest and tidiest way in. Gmail, Google Drive and Google Calendar all work like this.</p>
+  <p>To add one, click the <strong>+</strong> by the message box and choose <strong>Add connectors</strong>.</p>
+</div>
+
+<div class="phase">
+  <div class="phase-header">
+    <span class="phase-badge">If it's not on the list</span>
+    <span class="phase-title">MCP</span>
+  </div>
+  <p>MCP is the plug that connectors are built on. You'll hear the word when an app has a plug for Claude that isn't on the ready-made list, and you add it yourself with a web address the company gives you. My Meta ads account is connected this way. Once it's added, it works like a connector, and people often call it one.</p>
+  <p>You don't need to know how it works. Tell Claude the app you want to connect, and ask if there's an official MCP for it.</p>
+</div>
+
+<div class="phase">
+  <div class="phase-header">
+    <span class="phase-badge honey">For everything else</span>
+    <span class="phase-title">The Claude Chrome extension</span>
+  </div>
+  <p>This one gives Claude a browser. It opens pages, reads them, clicks and types, using the sites you're already logged into, the same way you would. So if a site has no connector, Claude can usually still work in it. Most of my email clear-out was done this way, because my Hotmail accounts have no connector that works with them.</p>
+  <p>It's slower, because Claude is clicking through pages one at a time, and Chrome has to stay open while it works.</p>
+</div>
+
+<div class="table-wrap">
+<table>
+  <tr>
+    <th></th>
+    <th>Connector</th>
+    <th>MCP</th>
+    <th>Chrome extension</th>
+  </tr>
+  <tr>
+    <td><strong>How Claude gets in</strong></td>
+    <td>Straight into the app</td>
+    <td>Straight into the app</td>
+    <td>Through your browser, like you would</td>
+  </tr>
+  <tr>
+    <td><strong>Setting it up</strong></td>
+    <td>Pick from a list and sign in</td>
+    <td>Add a web address and sign in</td>
+    <td>Install once and sign in</td>
+  </tr>
+  <tr>
+    <td><strong>Speed</strong></td>
+    <td>Fast</td>
+    <td>Fast</td>
+    <td>Slower</td>
+  </tr>
+  <tr>
+    <td><strong>What it can reach</strong></td>
+    <td>Only what that connector allows</td>
+    <td>Only what that MCP allows</td>
+    <td>Any site you can log into</td>
+  </tr>
+  <tr>
+    <td><strong>Examples</strong></td>
+    <td>Gmail, Drive, Calendar</td>
+    <td>Meta ads</td>
+    <td>Hotmail, your back office, anything without a connector</td>
+  </tr>
+</table>
+</div>
+
+<p>You don't have to choose. Describe the outcome and ask Claude which way in is best. As a rule, it's a connector if there is one, then an MCP, then Chrome.</p>
+
+<h3>Set up the Chrome extension</h3>
+
+<div class="steps">
+
+<div class="step">
+  <div class="step-num sky">1</div>
+  <div class="step-body">
+    <h4>Install it</h4>
+    <p>In Google Chrome, add <a href="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn">Claude from the Chrome Web Store</a>, then sign in with the same account you use for Claude. Stick to Chrome rather than another browser.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num sky">2</div>
+  <div class="step-body">
+    <h4>Get Claude to link it</h4>
+    <div class="code-block"><span class="label">Link Chrome</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>I've installed the Claude extension in Chrome. Check you can use it from here by opening a new tab. If you can't, walk me through linking it, one step at a time.</div>
+  </div>
+</div>
+
+</div>
+
+<div class="callout honey">
+  <strong>Be careful with this one</strong>
+  <p>Claude is working inside your logged-in accounts, and Anthropic says plainly that this still carries risk. A web page can contain hidden instructions aimed at Claude. So watch the first few minutes of any new job, keep it away from your banking, and check anything that pays, sends or deletes. Read <a href="https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely">Anthropic's safety guide</a> before you start.</p>
+</div>
+
+<div class="callout cacao">
+  <strong>Habits worth keeping</strong>
+  <p>One job per session. Start fresh when you change topic.</p>
+  <p>If you don't know whether Claude can do something, ask it. Describe the outcome and say "can you do this, and how?"</p>
+  <p>Claude proposes and you decide. You approve the plan before it starts.</p>
+</div>
+
+<div class="nextnav">
+  <a href="part-2-set-up.html">&larr; Part 2</a>
+  <a href="part-4-refine-your-icp.html">Next: Refine your ICP &rarr;</a>
+</div>
+
+<div class="footer">
+  <div class="footer-meta">Elevate &nbsp;&middot;&nbsp; <strong>Make Claude Code Your Bitch</strong> &nbsp;&middot;&nbsp; Part 3 &nbsp;&middot;&nbsp; November 2026</div>
+</div>
+
+<script src="workbook.js"></script>
+
+</body>
+</html>

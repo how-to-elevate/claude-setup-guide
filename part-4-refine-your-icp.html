@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Part 4: Refine Your ICP / Make Claude Code Your Bitch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sop-style.css">
+<link rel="stylesheet" href="workbook.css">
+</head>
+<body>
+
+<div class="topnav"><a href="index.html">&larr; All parts</a></div>
+
+<div class="cover">
+  <div class="eyebrow">Part 4 of 6</div>
+  <h1>Refine<br>Your ICP</h1>
+  <div class="subtitle">ICP means ideal client profile: the person you most want to sell to. Setup gave you a first draft, written from what you believe. Now you test it against what real people have said and done.</div>
+  <div class="pills">
+    <span class="pill sky">Uses Plan mode</span>
+    <span class="pill">About 1 hour</span>
+  </div>
+</div>
+
+<p class="lead">Your ideal client file is the most important thing in your folder. Every ad, email and script Claude writes for you starts from it, so if it's wrong, all of them are.</p>
+
+<p>When I did this, my file turned out to be wrong in places I'd have sworn it was right. Yours will have its own. There might be a fear in there that no buyer has ever mentioned, or something every buyer says that you left out.</p>
+
+<p>You find those by putting your file next to your evidence and looking at where they disagree.</p>
+
+<div class="callout cacao">
+  <strong>This is about your buyers</strong>
+  <p>Everything on this page runs on your own file and your own evidence. Even if you sell the same thing as someone else on the team, your audience is yours, so your answers will be different from mine and from theirs. Don't borrow anyone else's ICP.</p>
+</div>
+
+<h2>The Steps</h2>
+
+<div class="steps">
+
+<div class="step">
+  <div class="step-num">1</div>
+  <div class="step-body">
+    <h4>Gather your evidence</h4>
+    <p>Ask Claude: "Make a folder for my ICP evidence in PROJECTS/ICP/evidence and show me where it is." Then open your Claude folder in File Explorer (Finder on a Mac) and copy in whatever you've got. A handful of good pieces beats nothing, so don't wait until you have loads.</p>
+    <ul>
+      <li>Sales call transcripts or notes (Claude can turn recordings into text, see Part 6)</li>
+      <li>Answers from surveys and application forms</li>
+      <li>Testimonials and thank-you messages</li>
+      <li>DM conversations and email replies (screenshots are fine)</li>
+      <li>Comments on your ads and posts</li>
+    </ul>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">2</div>
+  <div class="step-body">
+    <h4>Switch to Plan mode and paste this</h4>
+    <div class="code-block"><span class="label">Find the clashes</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>Here's what I want to end up with: an ideal-client.md I can trust, because every line of it has been tested against real evidence.
+
+Read ABOUT ME/ideal-client.md, then everything in PROJECTS/ICP/evidence and, if it exists, PROJECTS/ICP/voc.
+
+Tell me how you would find every place where my file and the evidence disagree. I want a ranked list, with the biggest clash first, saved as PROJECTS/ICP/ideal-client-clashes.md. For each clash I want to see what my file says, what the evidence says, and a real example. Also list anything loud in the evidence that my file doesn't mention at all.
+
+Don't change ideal-client.md yet. We'll settle each point together.</div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">3</div>
+  <div class="step-body">
+    <h4>Read the plan, then let it run</h4>
+    <p>Same as Part 3. Check it's looking at the right things, ask it for the holes, approve it.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">4</div>
+  <div class="step-body">
+    <h4>Settle the clashes one at a time</h4>
+    <p>This is the part only you can do. On some the evidence is right and your file's wrong. On others you know something the evidence doesn't, so the file stays. Either answer is fine, as long as you've decided it on purpose.</p>
+    <div class="code-block"><span class="label">Work through them</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>Take me through PROJECTS/ICP/ideal-client-clashes.md one clash at a time. For each one, show me the line in my file, the evidence against it, and what you'd change it to. Wait for my decision before moving on. Update ideal-client.md after each decision, and mark that clash as settled with the date and my reason.</div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">5</div>
+  <div class="step-body">
+    <h4>Do it again when you know more</h4>
+    <p>New calls and new buyers mean new evidence. Drop it in the same folder and run the first prompt again every month or two.</p>
+  </div>
+</div>
+
+</div>
+
+<h2>Which Evidence Wins</h2>
+
+<p>Evidence doesn't all count the same. When two sources disagree, go with the one closest to money changing hands.</p>
+
+<div class="table-wrap">
+<table>
+  <tr>
+    <th>Source</th>
+    <th>How Much To Trust It</th>
+  </tr>
+  <tr>
+    <td><strong>People who bought, and your sales calls</strong></td>
+    <td>Highest. They're who the file's about.</td>
+  </tr>
+  <tr>
+    <td><strong>Your own experience</strong></td>
+    <td>High, especially if you used to be your ideal client</td>
+  </tr>
+  <tr>
+    <td><strong>People who enquired and didn't buy</strong></td>
+    <td>Good for objections, and less good for who your buyer is</td>
+  </tr>
+  <tr>
+    <td><strong>Forums and comment sections</strong></td>
+    <td>Good for wording. Check whether the people posting are the people who buy.</td>
+  </tr>
+</table>
+</div>
+
+<div class="callout honey">
+  <strong>A trap to watch for</strong>
+  <p>The people who post online aren't always the people who buy from you. If your research and your buyers seem to describe two different people, ask who's actually posting, and go with your buyers.</p>
+</div>
+
+<div class="callout">
+  <strong>Keep it private</strong>
+  <p>Your evidence folder has real people in it. Leave out bank, medical and ID details, and don't use anyone's name or story in public without their permission.</p>
+</div>
+
+<div class="nextnav">
+  <a href="part-3-how-to-work-with-it.html">&larr; Part 3</a>
+  <a href="part-5-add-your-voc.html">Next: Add your VOC &rarr;</a>
+</div>
+
+<div class="footer">
+  <div class="footer-meta">Elevate &nbsp;&middot;&nbsp; <strong>Make Claude Code Your Bitch</strong> &nbsp;&middot;&nbsp; Part 4 &nbsp;&middot;&nbsp; November 2026</div>
+</div>
+
+<script src="workbook.js"></script>
+
+</body>
+</html>

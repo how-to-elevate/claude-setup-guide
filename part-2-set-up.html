@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Part 2: Set It Up / Make Claude Code Your Bitch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sop-style.css">
+<link rel="stylesheet" href="workbook.css">
+</head>
+<body>
+
+<div class="topnav"><a href="index.html">&larr; All parts</a></div>
+
+<div class="cover">
+  <div class="eyebrow">Part 2 of 6</div>
+  <h1>Set It Up</h1>
+  <div class="subtitle">Install the app, make a folder and paste one box of text. Then Claude interviews you and builds the rest itself.</div>
+  <div class="pills">
+    <span class="pill sky">Windows and Mac</span>
+    <span class="pill honey">Desktop or laptop</span>
+    <span class="pill">About 1 hour</span>
+  </div>
+</div>
+
+<div class="callout cacao">
+  <strong>How long this takes</strong>
+  <p>About 20 minutes of clicking, then 30 to 45 minutes of Claude interviewing you. You only do it once, and you can stop halfway and carry on later.</p>
+  <p>You'll need a desktop or laptop. Once it's built you can use it from your phone, and that's covered at the end.</p>
+</div>
+
+<div class="toc">
+  <h3>What's Inside</h3>
+  <ol>
+    <li><span class="num">01</span> The app and your account</li>
+    <li><span class="num">02</span> Your Claude folder</li>
+    <li><span class="num">03</span> The one thing you paste</li>
+    <li><span class="num">04</span> What happens next</li>
+    <li><span class="num">05</span> Your daily workflow</li>
+    <li><span class="num">06</span> Troubleshooting</li>
+    <li><span class="num">07</span> Your phone and your backup</li>
+  </ol>
+</div>
+
+<h2>01 / The App And Your Account</h2>
+
+<div class="steps">
+
+<div class="step">
+  <div class="step-num">1</div>
+  <div class="step-body">
+    <h4>Get a paid Claude account</h4>
+    <p>Go to <a href="https://claude.ai">claude.ai</a>, sign up with your Google email and upgrade to Pro. The free plan doesn't include Claude Code.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">2</div>
+  <div class="step-body">
+    <h4>Install the Claude desktop app</h4>
+    <p>Claude Code comes inside the app, so this is the only thing you install.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="os-tabs">
+  <div class="os-block">
+    <div class="os-block-header mac">Mac</div>
+    <div class="os-block-body">
+      <ol>
+        <li><a href="https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect">Download Claude for Mac</a></li>
+        <li>Open the downloaded file from your Downloads folder</li>
+        <li>Drag Claude into your <strong>Applications</strong> folder</li>
+        <li>Open Claude from Applications or Launchpad</li>
+        <li>If you see a security warning, go to System Settings &rarr; Privacy &amp; Security and click <strong>Open Anyway</strong></li>
+        <li>Sign in with the account from step 1</li>
+      </ol>
+    </div>
+  </div>
+  <div class="os-block">
+    <div class="os-block-header pc">Windows (PC)</div>
+    <div class="os-block-body">
+      <ol>
+        <li><a href="https://claude.ai/api/desktop/win32/x64/setup/latest/redirect">Download Claude for Windows</a></li>
+        <li>Run the downloaded file and follow the installer</li>
+        <li>Open Claude from your Start menu</li>
+        <li>Sign in with the account from step 1</li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<h2>02 / Your Claude Folder</h2>
+
+<div class="steps">
+
+<div class="step">
+  <div class="step-num sky">1</div>
+  <div class="step-body">
+    <h4>Make an empty folder called Claude</h4>
+    <p>Put it in your Documents folder or on your Desktop. Keep it out of Google Drive and iCloud folders for now, because syncing can get in the way while Claude's working. We'll sort your backup at the end.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num sky">2</div>
+  <div class="step-body">
+    <h4>Open the Code tab</h4>
+    <p>At the top of the Claude app you'll see tabs. Click <strong>Code</strong>.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num sky">3</div>
+  <div class="step-body">
+    <h4>Choose Local, then pick your folder</h4>
+    <p>Under the message box there are two controls. Click the first and choose <strong>Local</strong>, which means your own computer. Click the one beside it, choose <strong>Open folder&hellip;</strong> and pick your Claude folder.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num sky">4</div>
+  <div class="step-body">
+    <h4>Check two settings</h4>
+    <p>In the row under the message box, set the mode to <strong>Manual</strong> for your first few sessions, so Claude asks before it does anything. Then in Claude's Settings, open <strong>Privacy</strong> and look at <strong>Help improve our AI models</strong>. If it's on, your chats and coding sessions can be used to train Claude. It's your choice, so choose on purpose.</p>
+  </div>
+</div>
+
+</div>
+
+<div class="callout">
+  <strong>Check this every time</strong>
+  <p>To start a new session, click <strong>New session</strong> in the Code tab. Each time, glance at the folder under the message box. If it says Claude, you're in the right place. Most "it's forgotten who I am" problems come from being in the wrong folder.</p>
+</div>
+
+<h2>03 / The One Thing You Paste</h2>
+
+<p class="lead">Copy this whole box, paste it into the message box and press Enter. That's the entire install.</p>
+
+<div class="code-block"><span class="label">Paste this into Claude (use the Copy button)</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>Set up my Claude workspace. Follow these steps exactly.
+
+1. Download these two files into this folder, saved at exactly these locations. Use whichever download method works on this computer.
+
+https://how-to-elevate.github.io/elevate-claude-code-setup/skills/setup/SKILL.md
+save as .claude/skills/setup/SKILL.md
+
+https://how-to-elevate.github.io/elevate-claude-code-setup/skills/build-icp/SKILL.md
+save as .claude/skills/build-icp/SKILL.md
+
+2. Read the file .claude/skills/setup/SKILL.md and follow it exactly, step by step, starting now.</div>
+
+<div class="callout">
+  <strong>Claude will ask your permission as it works</strong>
+  <p>The first few times it downloads a file or creates a folder, a small prompt asks you to allow it. Click to allow. That's the approval system working, and you stay in charge of what happens on your computer.</p>
+</div>
+
+<div class="callout honey">
+  <strong>Closed your laptop halfway through?</strong>
+  <p>Start a new session in the same folder and paste the same box. Claude keeps a progress file, sees where you stopped and picks up from there.</p>
+</div>
+
+<h2>04 / What Happens Next</h2>
+
+<p class="lead">From here it's a conversation. Claude asks, you answer.</p>
+
+<ul>
+  <li><strong>It looks before it asks.</strong> Claude checks what it can already learn about you, and asks if you've been using ChatGPT or Claude so it can bring that history over.</li>
+  <li><strong>It interviews you, one question at a time.</strong> Who you are, how you work, your goals, and the writing you can't stand. Answer like you're talking to a mate. Honest and specific beats polished.</li>
+  <li><strong>The ideal client interview goes deep.</strong> It's the longest part and the most valuable. Early on Claude asks whether your buyer is buying for their own life or for their job. The interview reshapes itself around your answer.</li>
+  <li><strong>You approve every file before it's saved.</strong> Claude drafts, shows you and only saves when you say yes. Your edits always win.</li>
+  <li><strong>It ends with proof.</strong> Claude writes a few lines in your voice, to your person, and asks you one question: does this sound like you?</li>
+</ul>
+
+<div class="callout">
+  <strong>Talk instead of type</strong>
+  <p>A voice-to-text tool makes the interview go twice as fast, and your answers come out more like you. I use Wispr Flow for nearly everything I say to Claude.</p>
+</div>
+
+<h4>What you'll have when it's done</h4>
+
+<p>Your Claude folder will have two folders in it. <strong>ABOUT ME</strong> holds your four foundation files, which cover your voice, your ideal client, your company and your writing rules. <strong>PROJECTS</strong> is where your work goes, and it starts with a longer profile of your ideal client. Claude also writes a <code>CLAUDE.md</code> instruction sheet that loads your foundation files every session, and a <code>/weekly-check-in</code> command that keeps them current.</p>
+
+<h2>05 / Your Daily Workflow</h2>
+
+<p class="lead">Every new session starts with Claude already knowing you. Just say what you're working on.</p>
+
+<div class="code-block"><span class="label">For a new project</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>I'm starting a new project called [name]. Create a folder for it inside my PROJECTS folder, then let's begin.</div>
+
+<div class="code-block"><span class="label">For an existing project</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>Open the [project name] folder in PROJECTS. Here's what we're working on today: [brief]</div>
+
+<div class="code-block"><span class="label">For strategy work</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>I want to think through [topic]. Read my foundation files first, then let's have a working conversation. I'll share my thinking and I want pushback, suggestions and clarity.</div>
+
+<div class="code-block"><span class="label">At the end of a session</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>Summarise what we decided and built today. Save it as session-notes.md in the [project name] folder, and add an opening message I can paste next time to pick up where we left off.</div>
+
+<h4>Once a week</h4>
+
+<p>Type <code>/weekly-check-in</code> at the start of any session. Claude reviews your foundation files, flags what's gone stale and asks what's changed. It takes about ten minutes.</p>
+
+<h2>06 / Troubleshooting</h2>
+
+<p>Check here before assuming anything's broken.</p>
+
+<div class="table-wrap">
+<table>
+  <tr>
+    <th>The Problem</th>
+    <th>What's Causing It</th>
+    <th>How to Fix It</th>
+  </tr>
+  <tr>
+    <td>Claude asks what it should already know, or can't find a file</td>
+    <td>You're in the wrong folder</td>
+    <td>Start a new session and pick your Claude folder under the message box</td>
+  </tr>
+  <tr>
+    <td>Setup got interrupted</td>
+    <td>Closed laptop, lost connection, ended the session</td>
+    <td>Paste the Section 03 box again in a new session. It resumes where you stopped.</td>
+  </tr>
+  <tr>
+    <td>The download step fails</td>
+    <td>A hiccup reaching the hosting site</td>
+    <td>Tell Claude: "Try the downloads again, and if they still fail, use raw.githubusercontent.com/how-to-elevate/elevate-claude-code-setup/main/ instead of the how-to-elevate.github.io address."</td>
+  </tr>
+  <tr>
+    <td>Claude says it needs Git (Windows)</td>
+    <td>Some jobs use this small free tool</td>
+    <td>Install it from <a href="https://git-scm.com/download/win">git-scm.com/download/win</a> with the default settings, then restart the Claude app. You don't need a GitHub account.</td>
+  </tr>
+  <tr>
+    <td>I can't see a Code tab</td>
+    <td>You're on the free plan, or the app's out of date</td>
+    <td>Check your plan at claude.ai, then update the app</td>
+  </tr>
+  <tr>
+    <td>Claude keeps asking permission</td>
+    <td>That's the approval system</td>
+    <td>Allow what makes sense. Part 3 covers how to let it run with fewer questions.</td>
+  </tr>
+  <tr>
+    <td>The writing sounds generic</td>
+    <td>Your writing rules are too vague</td>
+    <td>Run /weekly-check-in and add the specific words and patterns you hate</td>
+  </tr>
+  <tr>
+    <td>Replies are getting slow or confused</td>
+    <td>The session's got too long</td>
+    <td>Start a fresh session. One job per session works best.</td>
+  </tr>
+</table>
+</div>
+
+<h2>07 / Your Phone And Your Backup</h2>
+
+<h4>Use it from your phone</h4>
+<p>The Claude phone app has a Code tab too. It can reach sessions running on your computer, as long as the computer stays on with the Claude app running.</p>
+<div class="code-block"><span class="label">Phone access</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>I want to use this workspace from my phone. Check what's available on my plan, then walk me through setting it up, one step at a time.</div>
+
+<h4>Back up your workspace</h4>
+<p>Everything you build lives in your Claude folder, so give it a second home. Google Drive is the simple way, and you're probably using it already. This uses Plan mode, which you'll learn in Part 3, so come back to it after that if you like.</p>
+<div class="code-block"><span class="label">Google Drive backup</span><button class="copy-btn" onclick="copyBlock(this)">Copy</button>I want my Claude folder backed up to Google Drive automatically, so I'd lose nothing if this computer died. It should only ever copy, and never delete anything. Check whether Google Drive for desktop is installed and walk me through it if it isn't. Make a plan first, and tell me what you'd leave out of the backup.</div>
+
+<div class="callout honey">
+  <strong>One rule for passwords and API keys</strong>
+  <p>An API key is a password one app uses to talk to another. Never paste a password or API key into the chat. If something needs one, tell Claude and it'll help you set it up safely. If a key lands in a conversation by accident, treat it as exposed and replace it.</p>
+</div>
+
+<div class="nextnav">
+  <a href="part-1-why-your-computer.html">&larr; Part 1</a>
+  <a href="part-3-how-to-work-with-it.html">Next: How to work with it &rarr;</a>
+</div>
+
+<div class="footer">
+  <div class="footer-meta">Elevate &nbsp;&middot;&nbsp; <strong>Make Claude Code Your Bitch</strong> &nbsp;&middot;&nbsp; Part 2 &nbsp;&middot;&nbsp; November 2026</div>
+</div>
+
+<script src="workbook.js"></script>
+
+</body>
+</html>
